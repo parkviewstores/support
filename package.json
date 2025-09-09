@@ -1,0 +1,21 @@
+{
+  "name": "discord-dm-ticket-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot that creates ticket channels from DMs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "build": "npm install"
+  },
+  "keywords": ["discord", "bot", "ticket", "support"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
